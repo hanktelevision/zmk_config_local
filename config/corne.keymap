@@ -37,7 +37,7 @@
 //             | LS | LWR | ENT |     | SPC | RSE  | RS|
                         display-name = "Base";
                         bindings = <
-  &kp Q &kp w  &kp e  &kp r  &kp t      &kp y    &kp u   &kp i      &kp o      &kp p 
+    &kp Q &kp W  &kp E  &kp R &kp T     &kp y    &kp u   &kp i      &kp o      &kp p 
    &kp a  &kp s  &kp d  &kp f  &kp g      &kp h    &kp j   &kp k      &kp l      &kp SQT 
    &kp z  &kp x  &kp c  &kp v  &kp b      &kp n    &kp m   &kp LCTL  &kp RALT  &kp DOT 
         &kp LSHIFT &mo 1 &kp SPACE       &kp SPACE &mo 2  &kp RSHIFT
