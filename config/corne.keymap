@@ -34,28 +34,28 @@
 // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I   |  O   | P |
 // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K   |  L   | ' | 
 // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
-//             | LS | LWR | ENT |     | SPC | RSE  | RS|
+//             | LS | LWR | SPC |     | SPC | RSE  | RS|
                         display-name = "Base";
                         bindings = <
     &kp Q &kp W  &kp E  &kp R  &kp T     &kp Y    &kp U   &kp I      &kp O      &kp P 
    &kp A  &kp S  &kp D &kp F  &kp G      &kp H    &kp J   &kp K      &kp L      &kp SQT 
    &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N    &kp M    &kp LCTL  &kp RALT  &kp DOT 
-        &kp LSHIFT &mo 1 &kp SPACE       &kp SPACE &mo 2  &kp RSHIFT
+        &kp ESC &mo 1 &kp SPACE       &kp SPACE &mo 2  &kp RSHIFT
                         >;
                 };
 
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | !     |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
-// | ctrl  | BT2 | BT3 | BT4 | BT5 |     | LFT | DWN |  UP | RGT |     |
+// | ctrl  | left| up  | right| down |   | LFT | DWN |  UP | RGT |     |
 // | BTCLR |     |     |     |     |     | BSPC|     |     |     |     |
-//               | GUI |     | SPC |     | ENT | ESC | TAB |
+//               | RALT |     | SPC |     | ENT | bksp| TAB |
                         display-name = "Lower";
                         bindings = <
    &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET AS(N7) &kp KP_MULTIPLY &kp LPAR  &kp RPAR
-   &kp LCTL  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT       &kp N1    &kp N2 &kp N3     &kp N4    &kp N5
+   &kp LCTL  &kp LEFT  &kp UP &kp RIGHT   &kp DOWN      &kp N1    &kp N2 &kp N3     &kp N4    &kp N5
    &trans    &trans    &trans    &trans    &trans          &kp BSPC &trans    &trans  &trans    &trans 
-             &kp RALT     &trans       &kp SPACE         AS(RET)   &kp ESC   &trans
+             &kp RALT     &trans       &kp SPACE         AS(RET)   &kp BSPC  &kp TAB 
                         >;
                 };
 
