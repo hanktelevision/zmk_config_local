@@ -37,7 +37,7 @@
 //             | LS | LWR | ENT |     | SPC | RSE  | RS|
                         display-name = "Base";
                         bindings = <
-  &kp q  &kp w  &kp e  &kp r  &kp t      &kp y    &kp u   &kp i      &kp o      &kp p 
+  &kp Q &kp w  &kp e  &kp r  &kp t      &kp y    &kp u   &kp i      &kp o      &kp p 
    &kp a  &kp s  &kp d  &kp f  &kp g      &kp h    &kp j   &kp k      &kp l      &kp SQT 
    &kp z  &kp x  &kp c  &kp v  &kp b      &kp n    &kp m   &kp LCTL  &kp RALT  &kp DOT 
         &kp LSHIFT &mo 1 &kp SPACE       &kp SPACE &mo 2  &kp RSHIFT
@@ -52,9 +52,9 @@
 //               | GUI |     | SPC |     | ENT | ESC | TAB |
                         display-name = "Lower";
                         bindings = <
-   &kp EXCL &kp AT  &kp HASH  &kp DLLR  &kp PRCNT        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
-   &kp LCTL  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT       &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
-   &trans   &trans     &trans    &trans  &trans          &kp ENTER &trans    &trans  &trans    &trans 
+   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET AS(N8) &kp KP_MULTIPLY &kp LPAR  &kp RPAR
+   &kp LCTL  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT       &kp N1    &kp N2 &kp N3     &kp N4    &kp N5
+   &trans    &trans    &trans    &trans    &trans          &kp ENTER &trans    &trans  &trans    &trans 
              &kp LGUI     &trans       &kp SPACE         AS(RET)   &kp ESC   &trans
                         >;
                 };
