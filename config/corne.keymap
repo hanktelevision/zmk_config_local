@@ -34,7 +34,7 @@
 // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I   |  O   | P |
 // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K   |  L   | ' |
 // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
-// |           |Shift| LWR | SPC |     | SPC | RSE  | RS |            |
+// |           |Shift| SPC | LWR |     | RSE | SPC  | RS |            |
 // ----------------------------------------------------------------------
 //
                         display-name = "Base";
@@ -42,7 +42,7 @@
     &kp Q &kp W  &kp E  &kp R  &kp T     &kp Y    &kp U   &kp I      &kp O      &kp P 
    &kp A  &kp S  &kp D &kp F  &kp G      &kp H    &kp J   &kp K      &kp L      &kp SQT 
    &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N    &kp M    &kp LCTL  &kp RALT  &kp DOT 
-          &kp LSHIFT &mo 1 &kp SPACE       &kp SPACE &mo 2  &kp RSHIFT
+          &kp LSHIFT &kp SPACE &mo 1       &mo 2 &kp SPACE  &kp RSHIFT
                         >;
                 };
 
@@ -53,7 +53,7 @@
 // | !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )    |
 // | 1  |  2  |  3  |  4  |  5  |     | CLFT| Lft | UP  | Rgt | DWN   |
 // | 6  |  7  |  8  |  9  |  0  |     | BSPC|     |     |     |       |
-// |          | RALT|     | SPC |     | ENT | bksp| TAB |             |
+// |          | RALT| SPC |     |     | ENT | bksp| TAB |             |
 // ----------------------------------------------------------------------
 //
 
@@ -62,7 +62,7 @@
    &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET AS(N7) &kp KP_MULTIPLY &kp LPAR  &kp RPAR
    &kp N1    &kp N2   &kp N3    &kp N4    &kp N5       &kp LCTL  &kp LEFT &kp UP    &kp RIGHT &kp DOWN      
    &kp N6    &kp N7   &kp N8    &kp N9    &kp N0       &kp BSPC  &trans    &trans  &trans    &trans 
-                      &kp RALT  &trans    &kp SPACE    AS(RET)   &kp BSPC  &kp TAB 
+                      &kp RALT &kp SPACE &trans   AS(RET)   &kp BSPC  &kp TAB 
                        >;
                 };
 
